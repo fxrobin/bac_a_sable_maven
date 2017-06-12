@@ -7,9 +7,16 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
+import org.junit.BeforeClass;
 import org.junit.Test;
 
 public class DummyEntityTests {
+	
+	@BeforeClass
+	public static void init()
+	{
+		System.out.println("Temp : " + System.getProperty("java.io.tmpdir"));
+	}
 
 	@Test
 	public void testBuilding() {
