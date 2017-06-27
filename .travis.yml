@@ -1,2 +1,4 @@
-before_script: demo
+before_script: cd demo
 language: java
+sudo: false
+script: mvn clean verify
