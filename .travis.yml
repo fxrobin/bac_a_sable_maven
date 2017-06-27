@@ -6,7 +6,7 @@ sudo: false
 
 addons:
   sonarcloud:
-    organization: "fxrobin" # the key of the org you chose at step #3
+    organization: "fxrobin-github" # the key of the org you chose at step #3
     
 script:
   # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
